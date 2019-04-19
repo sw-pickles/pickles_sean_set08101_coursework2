@@ -1,0 +1,79 @@
+<html>
+	<head>
+			<link rel ="stylesheet" href ="coursework.css" type ="text/css"/>
+			<title > Coursework - atbash </title >
+	</head>
+<body>
+	<h1 >Atbash Cipher </h1 >
+	
+	
+	
+	<script type = "text/javascript">
+	function cipherCode(keyIn, keyOut, msg) {
+
+    var result = "";
+
+    var add = function(ch) { result += (keyIn.indexOf(ch)==-1) ? ch : keyOut[keyIn.indexOf(ch)]; }
+
+    for (var i = 0; i < msg.length; i++) { add(msg[i]); }
+
+    return result;
+
+}
+
+var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+var cipher = "ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba";
+
+
+function encode(message) { cForm.message.value = cipherCode(alphabet, cipher, message); }
+
+function decode(message) { cForm.message.value = cipherCode(cipher, alphabet, message); }
+
+	</script>
+
+	<div class = "p1">
+	<p class = "big"> 
+	Atbash is another type of substitution cipher which is used with a specific key,
+	where the alphabet is reversed ( A = Z, B = Y etc.)
+	<br>
+	It was orginally used to encrypt the hebrew alphabet
+	<br> However, the fact that the key is fixed - this cipher is very limited in terms of security
+	applications.
+	
+	<h2><a href="https://en.wikipedia.org/wiki/Atbash">More background info</a></h2>
+	
+	</p>
+	</div>
+	
+	<form name = "cForm">
+		<label for="message">Enter message here:</label>
+
+		<div class = "p4">
+		 <p><textarea id="message" cols="40" rows="7"  
+		 ></textarea></p> 
+		</div>
+		
+		<div class = "button3">
+		<input type = "button"  value = "Encode" onclick="encode(cForm.message.value);"/>
+		</div>
+		<div class = "button4">
+		<input type = "button"  value = "Decode" onclick="decode(cForm.message.value);"/>
+		</div>
+	</form>
+	<header>
+			
+				<div class="row">
+					<ul class="main-nav">
+						<li class="active"><a href="index"> Home </a></li>
+						<li><a href="caesar"> Caesar  </a></li>
+						<li><a href="atbash"> Atbash </a></li>
+						<li><a href="login"> Login </a></li>
+						<li><a href="registration"> Register </a></li>
+					</ul>
+				
+				</div>
+			 
+		</header>
+	
+</body>
+</html>

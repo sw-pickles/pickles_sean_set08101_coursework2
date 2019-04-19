@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration</title>
+		<style>
+		.regi-form {
+			width: 300px;
+			margin: 0 auto;
+			font-family: Tahoma, Geneva, sans-serif;
+		}
+		.regi-form h1 {
+			text-align: center;
+			color: white;
+			font-size: 24px;
+			padding: 20px 0 20px 0;
+			margin-top: 30%;
+			
+		}
+		.regi-form input[type="text"] 
+		{
+			width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+			
+		
+		}
+		.regi-form input[type="password"]
+		 {
+			width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+			
+		}
+		.regi-form input[type="submit"] {
+			width: 100%;
+			padding: 15px;
+			background-color: #535b63;
+			border: 0;
+			box-sizing: border-box;
+			cursor: pointer;
+			font-weight: bold;
+			color: #ffffff;
+			
+			
+		}
+		</style>
+		
+		<link rel ="stylesheet" href ="coursework.css" type ="text/css"/>
+		
+	</head>
+	<body>
+	
+		<header>
+		<div class="row">
+				<ul class="main-nav">
+					<li class="active"><a href="index"> Home </a></li>
+					<li><a href="caesar"> Caesar  </a></li>
+					<li><a href="atbash"> Atbash </a></li>
+					<li><a href="login"> Login </a></li>
+					<li><a href="registration"> Register </a></li>
+				</ul>
+			
+			</div>
+		</header>
+	
+		<div class="regi-form">
+			<h1>Sign up !</h1>
+			
+			<form action = 'registration' method = 'post'>
+				<input id = 'user' type = 'text' name='user' placeholder="Username" required>
+				<input id = 'password' type = 'password' name='pass' placeholder="Password" required>
+				<button id = 'reg_button' input type = 'submit' value = 'Registration'> REGISTER</button>
+			</form>
+		</div>
+		
+		
+	</body>
+</html>

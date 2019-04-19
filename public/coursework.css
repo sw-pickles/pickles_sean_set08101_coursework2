@@ -1,0 +1,159 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	color:white;
+	margin-top: 10px;
+	font-family: courier;
+	padding:10px;
+	font-size: 27px;
+}
+
+h2
+{
+	color:white;
+	text-align:center-right;
+	margin-top: 10px;
+	font-family: courier;
+	padding:10px;
+	font-size: 17px;
+}
+
+
+p
+{
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	font-family: courier;
+	padding: 10px;
+}
+
+p.big
+{
+	line-height: 1.8;	
+}
+
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(lock.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.img1
+{
+	margin-top: 21%;
+	position: fixed;
+	margin-left: 17%;
+}
+
+.img2
+{
+	margin-top: 21%;
+	position: fixed;
+	margin-left: 63%;
+}
+
+label
+{
+	color:white;
+	margin-top: 22%;
+	position: fixed;
+	margin-left: 10%;
+}
+
+.p1 
+{
+	margin-top: 5%;
+	position: fixed;
+}
+
+.p2
+{
+	margin-top: 21%;
+	position: fixed;
+	margin-left: 26%;
+}
+
+.p3
+{
+	margin-top: 21%;
+	position: fixed;
+	margin-left: 51%;
+}.p4
+{
+	margin-top: 21%;
+	position: fixed;
+	margin-left: 40%;
+}
+
+.shift
+{
+	margin-top: 19%;
+	position: fixed;
+	margin-left: 47%;
+}
+.button1
+{
+	margin-top: 30%;
+	position: fixed;
+	margin-left: 37%;
+}
+
+.button2
+{
+	margin-top: 30%;
+	position: fixed;
+	margin-left: 61%;
+}
+
+.button3
+{
+	margin-top: 30%;
+	position: fixed;
+	margin-left: 47%;
+}
+
+.button4
+{
+	margin-top: 30%;
+	position: fixed;
+	margin-left: 51%;
+}
+
+.main-nav
+{
+		float: right;
+		list-style: none;
+}	
+
+.main-nav li
+{
+	display: inline-block;
+	
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 30px;
+	font-family:trebuchet;
+	font-size: 23px; 
+	
+}
+
+
+.main-nav li a:hover
+{
+	border:	1px solid white;
+}
+
+
+	

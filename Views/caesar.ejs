@@ -1,0 +1,68 @@
+<html>
+	<head>
+			<link rel ="stylesheet" href ="coursework.css" type ="text/css"/>
+			<title > Coursework - caesar </title >
+	</head>
+<body>
+	<h1 >Caesar Cipher </h1 >
+	
+	<script type="application/javascript" src="caesarEncrypt.js"></script>
+	<script type="application/javascript" src="caesarDecrypt.js"></script>
+	
+	<div class = "p1">
+	<p class = "big"> 
+	In cryptography, a Caesar cipher ( shift cipher etc..) is one of the most known
+	encryption techniques ever used.
+	<br>
+	It's a type of substitution cipher where each letter in the plaintext
+	is replaced by a letter corresponding to a certain number of letters 
+	shifted up or down in the alphabet.
+	<br> There are total of 25 possible shifts with this cipher.
+	
+	<h2><a href="https://en.wikipedia.org/wiki/Caesar_cipher">More background info</a></h2>
+	
+	</p>
+	</div>
+	
+	
+	<div class = "shift">
+	<p><textarea id="shift" cols="5" rows="1"  
+	 autofocus></textarea></p> 
+	</div>
+	
+	<label for="text">Enter message here:</label>
+
+	<div class = "p2">
+	 <p><textarea id="PlainInput" cols="40" rows="7"  
+	 autofocus></textarea></p> 
+	</div>
+	
+	<div class = "p3">
+	 <p><textarea id="CaesarOutput" cols="40" rows="7"  
+	 autofocus></textarea></p> 
+	</div>
+	
+	<div class = "button1">
+	<button onclick="encryptCaesar();">Encode</button>
+	</div>
+	<div class = "button2">
+    <button onclick="decryptCaesar();">Decode</button>
+	</div>
+		<header>
+			
+				<div class="row">
+					<ul class="main-nav">
+						<li class="active"><a href="index"> Home </a></li>
+						<li><a href="caesar"> Caesar  </a></li>
+						<li><a href="atbash"> Atbash </a></li>
+						<li><a href="login"> Login </a></li>
+						<li><a href="registration"> Register </a></li>
+					</ul>
+				
+				</div>
+			
+		</header>
+
+
+</body>
+</html>
